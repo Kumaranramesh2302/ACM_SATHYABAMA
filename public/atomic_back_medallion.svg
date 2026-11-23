@@ -1,0 +1,53 @@
+<svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="backGrad" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#2a0910" />
+      <stop offset="45%" stop-color="#140306" />
+      <stop offset="100%" stop-color="#060508" />
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="35%" stop-color="#ff2a3b" />
+      <stop offset="100%" stop-color="#7a0a14" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Dark Metallic Background Face -->
+  <circle cx="250" cy="250" r="248" fill="url(#backGrad)" />
+
+  <!-- Outer Neon Crimson Rings without filter tiles -->
+  <circle cx="250" cy="250" r="240" stroke="#ff2a3b" stroke-width="6" opacity="0.3" />
+  <circle cx="250" cy="250" r="240" stroke="#ff2a3b" stroke-width="2.5" opacity="0.95" />
+  <circle cx="250" cy="250" r="236" stroke="#ffffff" stroke-width="1.2" opacity="0.5" />
+  <circle cx="250" cy="250" r="226" stroke="#ff2a3b" stroke-width="1" stroke-dasharray="4 8" opacity="0.4" />
+
+  <!-- Atomic Orbital Gyroscope Model -->
+  <g transform="translate(250, 180)">
+    <!-- Orbit 1 (Inclined Left) -->
+    <ellipse cx="0" cy="0" rx="82" ry="34" transform="rotate(-38)" stroke="#ff2a3b" stroke-width="6" fill="none" opacity="0.25" />
+    <ellipse cx="0" cy="0" rx="82" ry="34" transform="rotate(-38)" stroke="#ff4d5a" stroke-width="2.5" fill="none" opacity="0.92" />
+    <circle cx="-56" cy="-28" r="3.2" fill="#ffffff" />
+
+    <!-- Orbit 2 (Inclined Right) -->
+    <ellipse cx="0" cy="0" rx="82" ry="34" transform="rotate(38)" stroke="#ff2a3b" stroke-width="5" fill="none" opacity="0.25" />
+    <ellipse cx="0" cy="0" rx="82" ry="34" transform="rotate(38)" stroke="#ffffff" stroke-width="2.2" fill="none" opacity="0.88" />
+    <circle cx="60" cy="-26" r="3.2" fill="#ff4d5a" />
+
+    <!-- Orbit 3 (Near Vertical) -->
+    <ellipse cx="0" cy="0" rx="82" ry="32" transform="rotate(84)" stroke="#ff2a3b" stroke-width="6" fill="none" opacity="0.25" />
+    <ellipse cx="0" cy="0" rx="82" ry="32" transform="rotate(84)" stroke="#ff2a3b" stroke-width="2.5" fill="none" opacity="0.95" />
+    <circle cx="10" cy="70" r="3.2" fill="#ffffff" />
+
+    <!-- Core Nucleus Glowing Node -->
+    <circle cx="0" cy="0" r="22" fill="url(#coreGlow)" />
+    <circle cx="0" cy="0" r="9" fill="#ff2a3b" />
+    <circle cx="0" cy="0" r="3.5" fill="#ffffff" />
+  </g>
+
+  <!-- Typography matching reference exactly -->
+  <text x="250" y="325" text-anchor="middle" font-family="'Poppins', Arial, sans-serif" font-weight="700" font-size="28" fill="#ffffff" letter-spacing="4">ACM SATHYABAMA</text>
+  <text x="250" y="360" text-anchor="middle" font-family="'Poppins', Arial, sans-serif" font-weight="600" font-size="12" letter-spacing="3.2">
+    <tspan fill="#ffffff">CREATE. COLLABORATE. </tspan>
+    <tspan fill="#ff2a3b">INNOVATE.</tspan>
+  </text>
+</svg>

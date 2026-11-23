@@ -1,0 +1,40 @@
+# Development, test scripts and temporary test profiles
+scripts/
+*.py
+*.log
+scratch/
+scratch_*
+test_output/
+temp_thumbs/
+sample_frames/
+final_verification_snaps/
+scratch_snaps/
+
+# Backups and previous iterations
+acm.html
+*backup*.html
+*backup*
+*.bak*
+*.pre_*
+*.test_*
+acm.before_fixes.html
+test_*.html
+scratch_*.html
+scratch_*.txt
+0.38
+
+# Root images / test captures
+*.png
+!public/**
+
+# Old unused folders
+git/
+web content/
+public/team_backup_original/
+public/test_*.png
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

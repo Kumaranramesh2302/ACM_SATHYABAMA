@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <!-- Soft blur for wave ribbon edges -->
+    <filter id="waveGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="waveAmbient" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+
+    <!-- Corner Ambient Lighting: Slightly richer contrast & depth -->
+    <radialGradient id="cornerTL" cx="0%" cy="0%" r="52%">
+      <stop offset="0%" stop-color="#7faeef" stop-opacity="0.78"/>
+      <stop offset="35%" stop-color="#a3c9fc" stop-opacity="0.48"/>
+      <stop offset="70%" stop-color="#cee4fe" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cornerBR" cx="100%" cy="100%" r="56%">
+      <stop offset="0%" stop-color="#87a2fc" stop-opacity="0.76"/>
+      <stop offset="35%" stop-color="#ad98fc" stop-opacity="0.50"/>
+      <stop offset="70%" stop-color="#d6c8fe" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cornerTR" cx="100%" cy="0%" r="46%">
+      <stop offset="0%" stop-color="#98b2fc" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#c0aefe" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cornerBL" cx="0%" cy="100%" r="46%">
+      <stop offset="0%" stop-color="#90c2fd" stop-opacity="0.70"/>
+      <stop offset="50%" stop-color="#b8daf3" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Left Elegant Wave Gradients: Richer organic blue tones -->
+    <linearGradient id="leftWaveMain" x1="0%" y1="25%" x2="95%" y2="75%">
+      <stop offset="0%" stop-color="#7faeef" stop-opacity="0.84"/>
+      <stop offset="35%" stop-color="#9ec5fd" stop-opacity="0.64"/>
+      <stop offset="70%" stop-color="#c5e0fe" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="leftWaveSecondary" x1="0%" y1="0%" x2="100%" y2="85%">
+      <stop offset="0%" stop-color="#96befd" stop-opacity="0.78"/>
+      <stop offset="45%" stop-color="#b8d7fe" stop-opacity="0.52"/>
+      <stop offset="80%" stop-color="#ddeefe" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Right Wave Gradients: Soft Blue Transitioning to Luminous Violet -->
+    <linearGradient id="rightWaveMain" x1="100%" y1="35%" x2="5%" y2="65%">
+      <stop offset="0%" stop-color="#98aefd" stop-opacity="0.82"/>
+      <stop offset="35%" stop-color="#b49dfd" stop-opacity="0.62"/>
+      <stop offset="72%" stop-color="#d4c8fe" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rightWaveSwoop" x1="95%" y1="95%" x2="15%" y2="15%">
+      <stop offset="0%" stop-color="#92b6fc" stop-opacity="0.80"/>
+      <stop offset="30%" stop-color="#a7aafd" stop-opacity="0.58"/>
+      <stop offset="65%" stop-color="#c8cbfe" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rightWaveVioletRibbon" x1="100%" y1="15%" x2="15%" y2="85%">
+      <stop offset="0%" stop-color="#b39bfb" stop-opacity="0.70"/>
+      <stop offset="40%" stop-color="#ccaefd" stop-opacity="0.45"/>
+      <stop offset="78%" stop-color="#e2d4fe" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Pure Arctic White Center Base -->
+  <rect width="1920" height="1080" fill="#ffffff"/>
+
+  <!-- Corner Ambient Lighting Illuminations -->
+  <rect width="1920" height="1080" fill="url(#cornerTL)"/>
+  <rect width="1920" height="1080" fill="url(#cornerBR)"/>
+  <rect width="1920" height="1080" fill="url(#cornerTR)"/>
+  <rect width="1920" height="1080" fill="url(#cornerBL)"/>
+
+  <!-- ================= LEFT SIDE: FLOWING ORGANIC WAVES (EXTENDED INWARD & UPWARD) ================= -->
+  <!-- Left Wave Layer 1: Ambient soft wave field extending to X=460 -->
+  <path d="M -40,-40 L 460,-40 C 420,170 300,310 390,470 C 480,630 380,820 300,970 C 240,1050 120,1090 -40,1120 Z" 
+        fill="url(#leftWaveSecondary)" filter="url(#waveAmbient)"/>
+
+  <!-- Left Wave Layer 2: Main elegant organic wave curve extending to X=490 -->
+  <path d="M -30,20 C 180,60 380,180 340,380 C 290,560 480,720 380,880 C 280,1010 120,1060 -30,1080 Z" 
+        fill="url(#leftWaveMain)" filter="url(#waveGlow)"/>
+
+  <!-- Left Wave Layer 3: Upper soft crest extending upward and to X=420 -->
+  <path d="M -30,-40 L 420,-40 C 390,140 280,260 180,360 C 80,450 10,500 -30,520 Z" 
+        fill="url(#leftWaveSecondary)" filter="url(#waveGlow)"/>
+
+  <!-- ================= RIGHT SIDE: FLOWING WAVES WITH VIOLET ILLUMINATION (EXTENDED INWARD & UPWARD) ================= -->
+  <!-- Right Wave Layer 1: Ambient soft violet field extending inward to X=1440 -->
+  <path d="M 1960,-40 L 1440,-40 C 1510,190 1660,350 1560,560 C 1460,740 1570,910 1650,1050 L 1960,1120 Z" 
+        fill="url(#rightWaveVioletRibbon)" filter="url(#waveAmbient)"/>
+
+  <!-- Right Wave Layer 2: Main flowing curved wave from right edge extending inward to X=1380 -->
+  <path d="M 1950,80 C 1720,140 1480,310 1520,510 C 1560,680 1410,840 1350,980 C 1280,1070 1420,1110 1950,1120 Z" 
+        fill="url(#rightWaveMain)" filter="url(#waveGlow)"/>
+
+  <!-- Right Wave Layer 3: Upward sweeping wave swoosh sweeping from X=1180 upward across bottom-right -->
+  <path d="M 1180,1120 C 1380,980 1560,840 1660,620 C 1760,440 1880,320 1960,280 L 1960,1120 Z" 
+        fill="url(#rightWaveSwoop)" filter="url(#waveGlow)"/>
+</svg>

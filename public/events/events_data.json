@@ -1,0 +1,215 @@
+﻿[
+  {
+    "id": "event-1",
+    "year": "2022",
+    "filterGroup": "2022",
+    "date": "14 March 2022",
+    "category": "Inaugural Ceremony",
+    "title": "ACM & ACM-W Student Chapters – Inaugural Ceremony",
+    "shortDesc": "Official inauguration of the ACM Student Chapter and ACM-W Women's Chapter by Dr. Venkatesh Raman (Secretary, ACM India Council).",
+    "primaryImage": "public/events/image6.jpeg",
+    "images": ["public/events/image6.jpeg"],
+    "paragraphs": [
+      "The School of Computing, Sathyabama Institute of Science and Technology, inaugurated the ACM Student Chapter and ACM-W Women's Student Chapter on 14 March 2022.",
+      "Dr. Venkatesh Raman, Secretary, ACM India Council and Professor at the Institute of Mathematical Sciences, Chennai, graced the event as the Guest of Honour.",
+      "The ceremony featured a welcome address by Dr. T. Sasikala, Dean, School of Computing, and an inaugural address by Dr. T. Sasipraba, Vice Chancellor. The event was supported by the University's leadership and department convenors."
+    ]
+  },
+  {
+    "id": "event-2",
+    "year": "2022",
+    "filterGroup": "2022",
+    "date": "11 April 2022",
+    "category": "Innovation & Project Expo",
+    "title": "SPICE 2K22 – Innovation & Project Expo",
+    "shortDesc": "A symposium-style technical event showcasing innovative engineering ideas across Project Mania and Tech Canvas poster presentations.",
+    "primaryImage": "public/events/image7.jpeg",
+    "images": ["public/events/image7.jpeg"],
+    "paragraphs": [
+      "The School of Computing, Sathyabama Institute of Science and Technology, organized SPICE 2K22 (Sathyabama Project Innovation Competition and Exhibition), a symposium-style technical event designed to showcase innovative engineering ideas.",
+      "The event featured two major competitions: Project Mania – a project idea presentation for teams of three, and Tech Canvas – a poster presentation contest for teams of two based on selected problem domains.",
+      "The event was held on 11 April 2022, with registrations open until 4 April 2022. Exciting prizes were awarded to the top three teams. SPICE 2K22 was supported by the University leadership, organizing committee, convenors, and student coordinators."
+    ]
+  },
+  {
+    "id": "event-3",
+    "year": "2023",
+    "filterGroup": "2023",
+    "date": "23-24 March 2023",
+    "category": "Annual Symposium",
+    "title": "Horizon 23 – Annual Inter-Department Symposium",
+    "shortDesc": "ACM's flagship inter-departmental technical symposium bringing together students for Codefest, CSS Battle, and problem-solving contests.",
+    "primaryImage": "public/events/image8.jpeg",
+    "images": ["public/events/image8.jpeg", "public/events/image9.jpeg"],
+    "paragraphs": [
+      "Horizon 23 is the annual inter-departmental technical symposium of the School of Computing, Sathyabama Institute of Science and Technology, organized in association with the ACM & ACM-W Sathyabama Student Chapters. Held on 23-24 March 2023, the event brought together students from various departments to compete, collaborate, and showcase their talents.",
+      "The symposium featured a wide range of technical and non-technical events, including Codefest, CSS Battle, Blind Presentation, Brain Busters, Just A Minute, Murder Mystery, Adzap, Sight on Site, and more. Participants had the opportunity to ignite their creativity, enhance problem-solving skills, and win exciting cash prizes.",
+      "Horizon stands as ACM's flagship annual event, celebrated each year to inspire innovation and student engagement."
+    ]
+  },
+  {
+    "id": "event-4",
+    "year": "2023",
+    "filterGroup": "2023",
+    "date": "16-17 November 2023",
+    "category": "First-Year Talent Fest",
+    "title": "Voyage 2023 – Two-Day Talent Fest",
+    "shortDesc": "A dynamic two-day talent fest designed exclusively for first-year students to showcase creativity, teamwork, and technical curiosity.",
+    "primaryImage": "public/events/image10.jpeg",
+    "images": ["public/events/image10.jpeg", "public/events/image11.jpeg"],
+    "paragraphs": [
+      "Voyage 2023, organized by the Department of Computer Science and Engineering, School of Computing, Sathyabama Institute of Science and Technology, was held on 16-17 November 2023. Designed exclusively for first-year students, the event encouraged newcomers to explore their talents, creativity, and teamwork.",
+      "Day 1 events included Verbose Ventures, Shark Tank, E-Treasure Hunt, Ad-Mazing, Bug Blitz, Open Mic, and Pebble Painting.",
+      "Day 2 featured Memory Master, Photography, Slide Crafters, Artistic Odyssey, Channel Surfing, Hunger Games, and Best Out of Waste.",
+      "Voyage 2023 created a vibrant platform for freshers to showcase skills, engage with peers, and begin their journey with confidence and enthusiasm."
+    ]
+  },
+  {
+    "id": "event-5",
+    "year": "2024",
+    "filterGroup": "2024",
+    "date": "18-19 July 2024",
+    "category": "Annual Symposium",
+    "title": "Horizon 24 – Annual Inter-Department Symposium",
+    "shortDesc": "Annual inter-departmental symposium uniting creativity and competitive spirit through Canvas Carnival, Tech-Trivia, and Capture the Flag.",
+    "primaryImage": "public/events/image12.jpeg",
+    "images": ["public/events/image12.jpeg", "public/events/image13.jpeg"],
+    "paragraphs": [
+      "Horizon 24 is the annual inter-departmental symposium organized by the Department of Computer Science and Engineering, School of Computing, Sathyabama Institute of Science and Technology. Conducted in association with the ACM-SIST and ACM-W SIST Student Chapters, the event was held on 18-19 July 2024.",
+      "The symposium featured a diverse lineup of technical events such as Canvas Carnival, Tech-Trivia, Shark Tank, Type Race, Design Showcase, and Capture the Flag, along with engaging non-technical events including Fun Gallery, Minute to Win It, Mystery Games, Channel Surfing, Murder Mystery, and CineCraft.",
+      "Horizon 24 aimed to bring together creativity, innovation, and competitive spirit, supported by faculty coordinators and an enthusiastic student organizing team."
+    ]
+  },
+  {
+    "id": "event-6",
+    "year": "2025",
+    "filterGroup": "2025",
+    "date": "6-7 February 2025",
+    "category": "Talent & Tech Fiesta",
+    "title": "Voyage 2025 – Talent & Tech Fest",
+    "shortDesc": "Two-day student tech fiesta blending algorithmic strategy, code auctions, logic challenges, and Man vs Machine competitions.",
+    "primaryImage": "public/events/image14.jpeg",
+    "images": ["public/events/image14.jpeg", "public/events/image15.jpeg", "public/events/image16.jpeg"],
+    "paragraphs": [
+      "Voyage 2025, hosted by the Department of Computer Science and Engineering, School of Computing at Sathyabama Institute of Science and Technology, is a two-day students' fest organized in association with the ACM Student Chapter. Scheduled on 6-7 February 2025, the event promises an exciting blend of technical challenges and fun-filled competitions.",
+      "Day 1 features engaging contests such as Guess the Twist, IPL Auction, Red Code Exit, Code Auction, Pairadox, Crab Games, Techy Freeze, Jamming Jive Fest, and Just A Minute.",
+      "Day 2 includes Man vs Machine, Escape the Unknown, Tech Charades, and more events designed to ignite creativity and teamwork.",
+      "Voyage 2025 invites students to embark on a thrilling journey where every choice sparks excitement, supported by faculty coordinators and an active ACM student organizing team."
+    ]
+  },
+  {
+    "id": "event-7",
+    "year": "2025",
+    "filterGroup": "2025",
+    "date": "17 September 2025",
+    "category": "Coding Competition",
+    "title": "Debug Feast 2025 – Battle of Brains & Taste Buds!",
+    "shortDesc": "Intense code debugging sprints paired with wacky food penalties and bizarre bite bonus rounds at the Dental Auditorium.",
+    "primaryImage": "public/events/image18.jpeg",
+    "images": ["public/events/image18.jpeg"],
+    "paragraphs": [
+      "Debug Feast 2025, organized by the ACM Sathyabama Student Chapter in collaboration with the Department of Computer Science and Engineering, School of Computing, is a one-of-a-kind coding adventure designed to thrill both the mind and the senses. The event will take place on 17 September 2025 at the Dental Auditorium.",
+      "Participants will face intense debugging challenges – fixing logical errors, cracking hidden outputs, optimizing broken code, and competing in rapid-fire debugging sprints. Each round gets tougher, pushing students to think faster and code smarter as they fight for the top spot.",
+      "But Debug Feast adds a fun twist – special penalty and bonus rounds featuring weird and wacky food combinations! From unusual snacks to unexpected mixes, participants must conquer surprising taste challenges while keeping their focus sharp – making this event a test of logic, nerves, and stomach strength!",
+      "With enthusiastic faculty mentors and the ACM student crew leading the show, Debug Feast 2025 promises: High-energy competition, Skill-boosting tech challenges, and loads of laughter and unforgettable memories. Only those who can debug under pressure – and handle bizarre bites – will emerge as true champions!"
+    ]
+  },
+  {
+    "id": "event-8",
+    "year": "2025",
+    "filterGroup": "2025",
+    "date": "15 September 2025",
+    "category": "GenAI Workshop",
+    "title": "Prompt Alchemy – Generative AI Workshop",
+    "shortDesc": "Hands-on workshop at T.M.T Soundarabai Auditorium introducing prompt engineering, generative models, and real-time AI tools.",
+    "primaryImage": "public/events/image19.jpeg",
+    "images": ["public/events/image19.jpeg", "public/events/image20.jpeg"],
+    "paragraphs": [
+      "The Department of Computer Science and Engineering, School of Computing at Sathyabama Institute of Science and Technology, in association with the ACM Sathyabama Student Chapter, organized \"Prompt Alchemy\" – a Generative AI Workshop on 15 September 2025, at the T.M.T Soundarabai Auditorium.",
+      "This hands-on workshop introduced students to the fundamentals of Generative AI, prompt engineering techniques, and real-time AI tool applications, empowering them to build creative and practical AI-driven solutions.",
+      "The event was supported by university leadership, faculty coordinators, ACM office bearers, and a dynamic team of student organizers, ensuring a productive and engaging learning experience for participants."
+    ]
+  },
+  {
+    "id": "event-9",
+    "year": "2025",
+    "filterGroup": "2025",
+    "date": "5 September 2025",
+    "category": "Teachers' Day Tribute",
+    "title": "Honor Our Mentors ! – Teachers Day Celebration",
+    "shortDesc": "A heartfelt chapter initiative presenting personalized appreciation cards to all Department of CSE faculty members.",
+    "primaryImage": "public/events/image21.jpeg",
+    "images": ["public/events/image21.jpeg", "public/events/image22.jpeg", "public/events/image23.jpeg"],
+    "paragraphs": [
+      "To celebrate Teachers' Day, the ACM Sathyabama Student Chapter organized a warm and heartfelt initiative titled \"Honor Our Mentors !\". Personalized appreciation cards were distributed to every faculty member of the Department of Computer Science and Engineering as a gesture of gratitude for their guidance, motivation, and unwavering support in shaping students' futures.",
+      "This initiative strengthened the bond between students and educators while recognizing the invaluable role faculty members play in academic excellence and personal growth."
+    ]
+  },
+  {
+    "id": "event-10",
+    "year": "2025",
+    "filterGroup": "2025",
+    "date": "2025",
+    "category": "Chapter Induction",
+    "title": "1st Year Inauguration – 2025",
+    "shortDesc": "Welcoming incoming first-year students with chapter orientations across both the Chennai Main and Sriperumbudur Campuses.",
+    "primaryImage": "public/events/image24.jpeg",
+    "images": ["public/events/image24.jpeg", "public/events/image25.jpeg", "public/events/image26.jpeg", "public/events/image28.jpeg"],
+    "paragraphs": [
+      "The ACM Sathyabama Student Chapter welcomed the new batch of first-year students with an engaging inauguration session. The event introduced students to ACM's vision, opportunities, and technical community initiatives within the School of Computing. The session encouraged active participation in upcoming events, workshops, and innovation-driven activities, marking the beginning of their exciting journey ahead.",
+      "The session was hosted by Ms. Jeevitha V, Secretary of the ACM Sathyabama Chapter, who delivered the introduction and guided the flow of the event. Our Chapter Mentor, Dr. Ashok Kumar, Professor & ACM Faculty Coordinator, addressed the gathering with an inspiring speech on ACM's global presence, pride, and career-building benefits. Following this, Mr. Rokith S.V, Chairperson of the chapter, explained the membership process and the wide range of opportunities students gain through ACM. Several other core members also shared their personal experiences and encouraged first-year students to actively contribute to the community.",
+      "Additionally, a dedicated inauguration programme was held at the Sriperumbudur Campus, where students and faculty from the Chennai Main Campus travelled to join the ceremony. This extended session emphasized the unity between both campuses, engaged students with campus-wide community spirit, and provided a comprehensive orientation into the ACM chapter's activities across all locations."
+    ]
+  },
+  {
+    "id": "event-11",
+    "year": "2022",
+    "filterGroup": "summits",
+    "date": "2022",
+    "category": "ACM India Summit",
+    "title": "ACM India Summit 2022 – Pune",
+    "shortDesc": "Founding office-bearers representing Sathyabama in Pune, establishing the groundwork and operational framework of our chapter.",
+    "primaryImage": "public/events/image30.jpeg",
+    "images": ["public/events/image30.jpeg", "public/events/image31.jpeg", "public/events/image32.jpeg"],
+    "paragraphs": [
+      "In 2022, the founding members of the ACM Sathyabama Student Chapter represented our institution during the national-level engagements of ACM India in Pune. As pioneers of the chapter, their participation marked the beginning of Sathyabama's journey within the ACM community.",
+      "Though official records list the 2022 ACM India Annual Event as a virtual gathering, our delegation – consisting of the chapter's founding office-bearers – leveraged the opportunity to network with peers, understand ACM's national operational structure, and gather insights on organizing chapter activities.",
+      "The exposure helped shape the early vision of our chapter and guided the planning of future events, workshops, and collaborations. Their experience laid the foundation for the strong chapter culture we enjoy today."
+    ]
+  },
+  {
+    "id": "event-12",
+    "year": "2023",
+    "filterGroup": "summits",
+    "date": "2023",
+    "category": "ACM India Summit",
+    "title": "ACM India Summit 2023 – Jaipur",
+    "shortDesc": "Milestone delegation to Manipal University Jaipur with impactful addresses on empowering student innovation and campus technology.",
+    "primaryImage": "public/events/image33.jpeg",
+    "images": ["public/events/image33.jpeg", "public/events/image34.jpeg", "public/events/image35.jpeg"],
+    "paragraphs": [
+      "The ACM Sathyabama Student Chapter marked a proud milestone by participating in the ACM India Summit 2023, hosted at Manipal University Jaipur. The iconic \"Pink City\" offered a culturally rich and historic backdrop, transforming the summit into an inspiring blend of technology, learning, and memorable experiences.",
+      "Our delegation consisted of: Uthkarsh Singh – Chairperson, Fauziyya H – Vice Chairperson, Rokith S.V – Secretary, and Amirtha Sowmya B – Treasurer.",
+      "Throughout the summit, our representatives engaged in industry-oriented keynote talks, hands-on technical workshops, and impactful leadership networking sessions with ACM chapters across the country.",
+      "A highlight of the event was the contribution by Uthkarsh Singh and Fauziyya H, who delivered an insightful and well-received speech on empowering student innovation, scaling global-standard chapter activities, and adopting future-ready technologies on campus. Their participation in interactive strategy discussions received strong appreciation from delegates and mentors alike.",
+      "The experience strengthened our chapter's national presence, broadened exposure to emerging technologies, and continues to motivate our students to drive excellence and collaboration through ACM."
+    ]
+  },
+  {
+    "id": "event-13",
+    "year": "2024",
+    "filterGroup": "summits",
+    "date": "20-21 December 2024",
+    "category": "ACM India Summit",
+    "title": "ACM India Summit 2024 – Bengaluru",
+    "shortDesc": "Delegation to BMSCE & RVCE Bengaluru under the theme of 'Sustainable Computing', forging nationwide academic collaborations.",
+    "primaryImage": "public/events/image36.jpeg",
+    "images": ["public/events/image36.jpeg", "public/events/image37.jpeg"],
+    "paragraphs": [
+      "In December 2024, the ACM Sathyabama Student Chapter kept its tradition alive by participating in the ACM India Chapter Summit 2024, held on 20-21 December 2024 in Bengaluru, jointly hosted by BMS College of Engineering (BMSCE) and RV College of Engineering (RVCE).",
+      "The summit brought together ACM student and professional chapters from across India under the theme of \"Sustainable Computing\", offering a rich platform for exchange of ideas, collaboration, and innovation.",
+      "What We Gained & Contributed: Our members attended national-level workshops, interactive sessions, and panel discussions addressing current trends and future directions in computing. The summit enabled networking with peers from across the country – forging connections that expand learning and collaboration beyond campus.",
+      "By representing Sathyabama among India's vibrant ACM community, we reinforced our chapter's commitment to excellence, innovation, and sustainable computing practices. The exposure motivated our students to bring fresh ideas back to campus – inspiring new events, workshops, and collaborations under ACM Sathyabama."
+    ]
+  }
+]

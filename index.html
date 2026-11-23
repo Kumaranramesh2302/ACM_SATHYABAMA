@@ -4697,7 +4697,7 @@ h1, h2, h3, h4, h5, h6 {
               
               <!-- Fast, Smooth Hardware-Accelerated Video Player Stage -->
               <div class="cinema-video-stage" id="cinemaVideoStage">
-                <video class="cinema-video-player player-a" id="cinemaVideoPlayer" playsinline muted autoplay loop preload="auto" poster="public/team/kevin_samuel.jpg" src="public/Team/Kevin.mp4" style="opacity: 1;"></video>
+                <video class="cinema-video-player player-a" id="cinemaVideoPlayer" playsinline muted autoplay loop preload="auto" poster="public/team/kevin_samuel.jpg" src="public/team/Kevin.mp4" style="opacity: 1;"></video>
                 <video class="cinema-video-player player-b" id="cinemaVideoPlayerB" playsinline muted loop preload="auto" style="opacity: 0; pointer-events: none;"></video>
                 <div class="cinema-shutter-flash" id="cinemaShutterFlash"></div>
               </div>
@@ -6330,7 +6330,7 @@ h1, h2, h3, h4, h5, h6 {
 
       // Load & Play Corresponding Video Smoothly with Dual-Player Cross-Fade
       const vidFile = m.video_file || `${m.id}.mp4`;
-      const vidSrc = m.video || `public/Team/${encodeURIComponent(vidFile)}`;
+      const vidSrc = m.video || `public/team/${encodeURIComponent(vidFile)}`;
 
       if (this.activePlayer && this.inactivePlayer) {
         const activeSrc = this.activePlayer.getAttribute('src') || this.activePlayer.currentSrc || '';
