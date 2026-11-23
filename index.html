@@ -170,7 +170,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 48px);
-  max-width: 1560px;
+  max-width: 1440px;
   height: 64px;
   border-radius: 999px;
   background: rgba(8, 10, 15, 0.72);
@@ -1409,12 +1409,14 @@ a {
   position: relative;
   flex: 1;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.15fr 0.85fr;
   align-items: center;
   justify-content: center;
-  gap: 36px;
+  gap: clamp(24px, 3vw, 44px);
+  max-width: 1200px;
+  width: 100%;
+  margin: 6px auto;
   min-height: 0;
-  margin: 6px 0;
   z-index: 5;
   overflow: hidden;
 }
@@ -1423,8 +1425,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
-  padding: 6px 12px;
+  gap: 12px;
+  padding: 6px 16px;
   z-index: 5;
   min-height: 0;
 }
@@ -1496,7 +1498,7 @@ a {
 .cinema-screen-wrap {
   position: relative;
   height: 100%;
-  max-height: min(430px, calc(100vh - 280px));
+  max-height: min(470px, calc(100vh - 270px));
   aspect-ratio: 0.75;
   width: auto;
   max-width: 100%;
@@ -1504,6 +1506,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-self: center;
   transform: none !important;
 }
 
@@ -2871,7 +2874,8 @@ a {
 
 /* Global Viewport & Responsive Foundation */
 html, body {
-  overflow-x: hidden !important;
+  overflow-x: clip !important;
+  overflow-y: visible !important;
   max-width: 100vw !important;
   box-sizing: border-box;
 }
@@ -3280,6 +3284,7 @@ html, body {
     width: 100%;
     left: 0;
     right: 0;
+    transform: none !important;
     border-radius: 0;
     border-left: none;
     border-right: none;
@@ -3389,7 +3394,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Full Edge-to-Edge Screen Coverage */
 .site-header {
   width: calc(100% - clamp(24px, 4vw, 48px));
-  max-width: min(1720px, 96vw);
+  max-width: min(1440px, 96vw);
 }
 
 /* Restored Previous Original Alignment for Slides 2 through 7 (Slide 1 Retains Updated Sizing) */
@@ -4483,21 +4488,40 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(70px, 7vh, 100px) 0 clamp(35px, 4vh, 50px) !important;
+  padding: clamp(36px, 4.5vh, 60px) 0 clamp(20px, 2.5vh, 36px) !important;
   background: var(--bg-deep);
   z-index: 10;
   overflow: hidden;
   box-sizing: border-box;
 }
 .convergence-emblem-wrap {
-  margin-bottom: clamp(28px, 4vh, 48px) !important;
+  margin-bottom: clamp(14px, 2vh, 22px) !important;
+}
+.convergence-emblem-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 10px;
+}
+.convergence-title {
+  font-size: clamp(32px, 3.5vw, 50px) !important;
+  margin: 6px 0 10px !important;
+}
+.convergence-sub {
+  font-size: 14px !important;
+  max-width: 600px;
+  margin: 0 auto 12px !important;
 }
 .connect-social-grid {
-  margin: clamp(24px, 3vh, 36px) auto clamp(24px, 3vh, 36px) !important;
+  margin: clamp(14px, 2vh, 20px) auto !important;
+  gap: 20px !important;
+}
+.official-footer-card {
+  padding: 18px 24px !important;
+  margin-top: 0 !important;
 }
 .site-bottom-bar {
-  margin-top: clamp(24px, 3vh, 36px) !important;
-  padding-top: 20px !important;
+  margin-top: clamp(12px, 1.8vh, 18px) !important;
+  padding-top: 12px !important;
 }
 
 
@@ -4586,9 +4610,8 @@ h1, h2, h3, h4, h5, h6 {
     <a href="#about" class="nav-link">About</a>
     <a href="#mission" class="nav-link">Mission &amp; Vision</a>
     <a href="#leadership" class="nav-link">Leadership</a>
-    <a href="#activities" class="nav-link">Activities</a>
-    <a href="#gallery" class="nav-link">Gallery</a>
-    <a href="#teams" class="nav-link">Five Teams</a>
+    <a href="#gallery" class="nav-link">Gallery &amp; Events</a>
+    <a href="#teamsTrack" class="nav-link">Five Teams</a>
     <a href="#connect" class="nav-link">Connect</a>
   </nav>
 
@@ -4618,10 +4641,9 @@ h1, h2, h3, h4, h5, h6 {
   <a href="#about" class="mobile-nav-link"><span>01 About</span> <span>&rarr;</span></a>
   <a href="#mission" class="mobile-nav-link"><span>02 Mission &amp; Vision</span> <span>&rarr;</span></a>
   <a href="#leadership" class="mobile-nav-link"><span>03 Leadership</span> <span>&rarr;</span></a>
-  <a href="#activities" class="mobile-nav-link"><span>04 Activities</span> <span>&rarr;</span></a>
-  <a href="#gallery" class="mobile-nav-link"><span>05 Gallery</span> <span>&rarr;</span></a>
-  <a href="#teamsTrack" class="mobile-nav-link"><span>06 Five Teams</span> <span>&rarr;</span></a>
-  <a href="#connect" class="mobile-nav-link" style="color:var(--pri);"><span>07 Get in Touch</span> <span>&rarr;</span></a>
+  <a href="#gallery" class="mobile-nav-link"><span>04 Gallery &amp; Events</span> <span>&rarr;</span></a>
+  <a href="#teamsTrack" class="mobile-nav-link"><span>05 Five Teams</span> <span>&rarr;</span></a>
+  <a href="#connect" class="mobile-nav-link" style="color:var(--pri);"><span>06 Get in Touch</span> <span>&rarr;</span></a>
   <button type="button" class="mobile-nav-link mobile-theme-btn" id="mobileThemeToggle" style="background:none; border:none; width:100%; text-align:left; cursor:pointer; font-size:inherit; display:flex; justify-content:space-between; align-items:center;">
     <span>Theme</span> <span id="mobileThemeStatus">🌙 Dark Mode</span>
   </button>
@@ -5313,6 +5335,7 @@ h1, h2, h3, h4, h5, h6 {
      PART 7: 3D LAPTOP (CRT EFFECT) & FIVE TEAMS SECTION
      ======================================================================= -->
 <div class="teams-track" id="teamsTrack">
+  <span id="teams" style="position:absolute; top:-80px;"></span>
   <div class="teams-sticky">
     <div class="teams-stage-title-wrap" id="teamsStageTitle">
       <h2 id="teamsHeadline">FIVE TEAMS. ONE VISION.</h2>
@@ -6986,8 +7009,8 @@ h1, h2, h3, h4, h5, h6 {
         if (!href || href === '#') return;
 
         // Close mobile drawer if open
-        const mobileMenu = document.getElementById('mobileMenuDrawer');
-        const menuToggle = document.getElementById('menuToggleBtn');
+        const mobileMenu = document.getElementById('mobileNavDrawer') || document.getElementById('mobileMenuDrawer');
+        const menuToggle = document.getElementById('menuToggle') || document.getElementById('menuToggleBtn');
         if (mobileMenu && mobileMenu.classList.contains('open')) {
           mobileMenu.classList.remove('open');
           if (menuToggle) menuToggle.classList.remove('active');
