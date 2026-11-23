@@ -3589,6 +3589,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
    SLIDE 1: HERO SECTION (ACM SATHYABAMA VISIBILITY FIX & BOLDNESS)
    ========================================================================== */
+.hero-cinematic-bg,
 [data-theme="light"] .hero-cinematic-bg {
   display: none !important;
 }
@@ -4417,17 +4418,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .laser-ribbon-bg .laser-svg {
-  animation: laserOrbitSlow 36s linear infinite reverse;
+  animation: laserOrbitSlow 60s linear infinite reverse;
   transform-origin: center;
+  will-change: transform;
 }
 
 .laser-ribbon-fg .laser-svg {
-  animation: laserOrbitSlow 28s linear infinite;
+  animation: laserOrbitSlow 48s linear infinite;
   transform-origin: center;
+  will-change: transform;
 }
 
 .laser-svg ellipse {
-  animation: laserDashOrbit 24s linear infinite;
+  animation: none;
 }
 
 [data-theme="light"] .laser-ribbon-bg .laser-svg ellipse:first-child {
@@ -4700,7 +4703,7 @@ h1, h2, h3, h4, h5, h6 {
           <!-- 3D Laser Energy Ribbon (Background) -->
           <div class="laser-ribbon-wrap laser-ribbon-bg" id="laserRibbonBg" aria-hidden="true">
             <svg viewBox="0 0 600 400" fill="none" class="laser-svg">
-              <ellipse cx="300" cy="200" rx="285" ry="115" transform="rotate(18 300 200)" stroke="rgba(147, 197, 253, 0.45)" stroke-width="2.5" stroke-dasharray="14 10" />
+              <ellipse cx="300" cy="200" rx="285" ry="115" transform="rotate(18 300 200)" stroke="rgba(147, 197, 253, 0.45)" stroke-width="2.5" />
               <ellipse cx="300" cy="200" rx="285" ry="115" transform="rotate(18 300 200)" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
             </svg>
           </div>
@@ -4772,8 +4775,8 @@ h1, h2, h3, h4, h5, h6 {
           <!-- 3D Laser Energy Ribbon (Foreground) -->
           <div class="laser-ribbon-wrap laser-ribbon-fg" id="laserRibbonFg" aria-hidden="true">
             <svg viewBox="0 0 600 400" fill="none" class="laser-svg">
-              <ellipse cx="300" cy="200" rx="270" ry="110" transform="rotate(-12 300 200)" stroke="url(#laserFgGrad)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="1100 400" />
-              <ellipse cx="300" cy="200" rx="270" ry="110" transform="rotate(-12 300 200)" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.88" stroke-dasharray="700 500" />
+              <ellipse cx="300" cy="200" rx="270" ry="110" transform="rotate(-12 300 200)" stroke="url(#laserFgGrad)" stroke-width="3.2" stroke-linecap="round" />
+              <ellipse cx="300" cy="200" rx="270" ry="110" transform="rotate(-12 300 200)" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.88" />
               <defs>
                 <linearGradient id="laserFgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stop-color="#1677FF" />
